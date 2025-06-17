@@ -1,0 +1,26 @@
+---
+
+// Data Imports
+import navData from "../data/navData"
+import navDataDrop from "../data/navDataDrop"
+---
+
+<nav>
+    <div class="relative flex justify-between mt-6 mb-6 mx-8">
+        <a href="/" class="text-2xl font-bold">The Guild</a>
+        <ul class="flex gap-4 font-semibold">
+            {navData.map((item) => <a href={item.path}>{item.name}</a>)
+
+            }
+            <details>
+                <summary class="cursor-pointer">Dropdown</summary>
+                <ul class="absolute flex flex-col gap-4 font-semibold">
+            {navDataDrop.map((item) => <a href={item.path}>{item.name}</a>)
+
+            }
+
+                </ul>
+            </details>
+        </ul>
+    </div>
+</nav>
