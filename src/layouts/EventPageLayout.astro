@@ -1,0 +1,30 @@
+---
+import MainLayout from "./MainLayout.astro";
+import StoreMap from "../components/StoreMap.astro";
+
+const { frontmatter } = Astro.props;
+
+const { title, date, time, image, category } = frontmatter;
+
+---
+
+
+<MainLayout {title}>
+    <header class="my-10">
+        <div class="grid grid-col-[1fr] justify-items-center">
+            <small>
+                <a href={'/category/${category}'} class="bg-yellow-100 text-yellow-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm dark:bg-gray-700 dark:text-yellow-300 border border-yellow-300"> {category} </a>
+            </small>
+            <br>
+            <h1 class="text-4xl font-semibold my-2">{title}</h1>
+            <p class="my-2">{date} at {time}</p>
+        </div>
+        <img src={image.src} alt={image.alt} class="w-full">
+    </header>
+    <div>
+        <div class="grid grid-col-[1fr] justify-center max-w-5xl mx-auto gap-2">
+            <slot />
+        </div>
+    </div>
+    <StoreMap />
+</MainLayout>

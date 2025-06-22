@@ -1,0 +1,37 @@
+---
+// Events css
+import '../../styles/events.css';
+
+// Componit Imports
+import MainLayout from "../../layouts/MainLayout.astro"
+
+
+// const allPosts = await Astro.glob("./post/*.md");
+const weeklyEvents = await Astro.glob("./weekly/*.md");
+
+---
+
+<MainLayout title="Home">
+	 <section>
+    <h1 class="text-4xl flex justify-around font-bold">Guild Events</h1>
+    <ul>
+    <li>
+      <a href="/events/weekly/Fleash-and-Blood-Armory/">Post 1</a>
+    </li>
+    <li>
+      <a href="/events/weekly/Friday-Night-Magic/">Post 2</a>
+    </li>
+  </ul>
+    <div>
+      {
+        weeklyEvents.map((post) => (
+          <div>
+	          frontmatter={post.frontmatter}
+	          url={post.url}
+	          tagType="h2"
+          </div>
+        ))
+      }
+    </div>
+  </section>
+</MainLayout>
