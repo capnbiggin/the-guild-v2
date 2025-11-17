@@ -7,10 +7,6 @@ const navData = [
 		name: "Events",
 		path: "/events",
 	},
-	{
-		name: "Tattoo Artist",
-		path: "/tattoo",
-	},
 ];
 
 export default navData;

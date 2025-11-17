@@ -8,10 +8,6 @@ const navDropdown = [
 		path: "https://www.facebook.com/gamersguildal/",
 	},
 	{
-		name: "Tatto Facebook",
-		path: "https://www.facebook.com/theguildALtattoostudio",
-	},
-	{
 		name: "Discord",
 		path: "https://discord.gg/vXDwxXAVqf",
 	},
