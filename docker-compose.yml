@@ -1,7 +1,7 @@
 services:
-  guild-webdev:
+  webapp:
     build: .
-    container_name: the-guild-container
+    container_name: the-guild-v2
     ports:
       - "4321:4321"
     volumes:
