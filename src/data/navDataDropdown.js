@@ -5,7 +5,7 @@ const navDropdown = [
 	},
 	{
 		name: "Facebook",
-		path: "https://www.facebook.com/gamersguildal/",
+		path: "https://www.facebook.com/gamersguildal",
 	},
 	{
 		name: "Discord",

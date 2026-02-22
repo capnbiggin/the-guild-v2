@@ -4,9 +4,19 @@
 import StoreMap from "../components/StoreMap.astro"
 import MainLayout from "../layouts/MainLayout.astro"
 
+import "../styles/bg-img.css"
+
 ---
 
 <MainLayout title="About">
-	<h1 class="flex justify-center text-4xl my-10">About!!</h1>
+	<h1 class="flex justify-center text-6xl my-10 font-bold">About</h1>
+	<div class="flex flex-col justify-center items-center my-10">
+		<h2 class="text-5xl my-10 font-simibold">Store Hours</h2>
+		<p class="text-2xl">Sun - Thur | Noon - 8PM</p>
+		<p class="text-2xl">Fri and Sat | Noon - Midnight</p>
+	</div>
+
+
+
 	<StoreMap />
 </MainLayout>

@@ -4,7 +4,7 @@ const navTournamentDropdown = [
 		path: "https://fabtcg.com/en/locator/gamers-guild-al/",
 	},
 	{
-		name: "Magic the Gathering",
+		name: "MTG - Event Link",
 		path: "https://locator.wizards.com/store/15234",
 	},
 	{
