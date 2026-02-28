@@ -1,0 +1,15 @@
+---
+const { data } = Astro.props;
+---
+
+	<div class="mx-5">
+	<img class="w-[30vw]"src={data.image} alt={data.title}>
+	<div>
+	<!--<p>{data.title}</p>-->
+	</div>
+	</div>
+<style>
+    img {
+        border-radius: 20px;
+    }
+</style>

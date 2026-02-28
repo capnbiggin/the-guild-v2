@@ -1,10 +1,10 @@
 ---
 // Events css
 import '../../styles/events.css';
-import "../../styles/bg-img.css"
+import "../../styles/bg-img.css";
 
 // Componit Imports
-import MainLayout from "../../layouts/MainLayout.astro"
+import MainLayout from "../../layouts/MainLayout.astro";
 
 
 // const allPosts = await Astro.glob("./post/*.md");
@@ -14,25 +14,30 @@ const weeklyEvents = await Astro.glob("./weekly/*.md");
 
 <MainLayout title="Guild Events">
 	 <section>
-    <h1 class="flex justify-center text-6xl my-10 font-bold">Guild Events</h1>
-    <ul>
-    <li>
-      <a href="/events/weekly/Fleash-and-Blood-Armory/">Post 1</a>
-    </li>
-    <li>
-      <a href="/events/weekly/Friday-Night-Magic/">Post 2</a>
-    </li>
-  </ul>
-    <div>
-      {
-        weeklyEvents.map((post) => (
-          <div>
-	          frontmatter={post.frontmatter}
-	          url={post.url}
-	          tagType="h2"
-          </div>
-        ))
-      }
+    <div class="flex justify-center items-center mt-10 mb-20">
+      <img src="../../March_26_Calendar.png" alt="Events">
     </div>
+    <!--
+    	<h1 class="flex justify-center text-6xl my-10 font-bold">Guild Events</h1>
+    	<ul>
+    	<li>
+    	<a href="/events/weekly/Fleash-and-Blood-Armory/">Post 1</a>
+    	</li>
+    	<li>
+    	<a href="/events/weekly/Friday-Night-Magic/">Post 2</a>
+    	</li>
+    	</ul>
+    	<div>
+    	{
+    	weeklyEvents.map((post) => (
+    	<div>
+    	frontmatter={post.frontmatter}
+    	url={post.url}
+    	tagType="h2"
+    	</div>
+    	))
+    	}
+    	</div>
+    -->
   </section>
 </MainLayout>
