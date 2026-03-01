@@ -1,14 +1,14 @@
 [
     {
-        "title": "Flesh and blood Armory",
-        "image": "images/armory.webp"
-    },
-    {
         "title": "Friday Night Magic",
         "image": "images/fnm.png"
     },
     {
         "title": "Neuroscape Release Day",
         "image": "images/Neuroscape_Release_Day.jpg"
+    },
+    {
+        "title": "Flesh and blood Armory",
+        "image": "images/armory.webp"
     }
 ]
