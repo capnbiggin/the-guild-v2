@@ -1,5 +1,7 @@
 body {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("/images/turny-pic.jpg");
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+    url("/images/turny-pic.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;

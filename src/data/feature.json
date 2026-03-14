@@ -1,14 +1,14 @@
 [
-    {
-        "title": "Friday Night Magic",
-        "image": "images/fnm.png"
-    },
-    {
-        "title": "Neuroscape Release Day",
-        "image": "images/Neuroscape_Release_Day.jpg"
-    },
-    {
-        "title": "Flesh and blood Armory",
-        "image": "images/armory.webp"
-    }
+  {
+    "title": "Friday Night Magic",
+    "image": "images/features/fnm.png"
+  },
+  {
+    "title": "Neuroscape",
+    "image": "images/features/Nova-He-Arc-Banner.png"
+  },
+  {
+    "title": "Flesh and blood Armory",
+    "image": "images/features/armory.webp"
+  }
 ]
