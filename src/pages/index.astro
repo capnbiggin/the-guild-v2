@@ -18,7 +18,7 @@ import data from "../data/feature.json";
         {data.map((card) => <Card data={card} />)}
     </div> -->
 
-    <div id="default-carousel" class="relative w-[80dvw}" data-carousel="slide">
+    <div id="default-carousel" class="relative w-[80dvw}" data-carousel="slide" data-carousel-interval="5000">
         <div class="relative h-56 overflow-hidden rounded-base md:h-96">
             {data.map((card) => <Card data={card} />)}
         </div>
