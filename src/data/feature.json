@@ -10,5 +10,13 @@
   {
     "title": "Flesh and blood Armory",
     "image": "images/features/armory.webp"
+  },
+  {
+    "title": "40K",
+    "image": "images/features/40K.webp"
+  },
+  {
+    "title": "Pokemon",
+    "image": "images/features/Pokemon.webp"
   }
 ]

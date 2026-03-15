@@ -14,7 +14,14 @@ import data from "../data/feature.json";
         alt="Guild Logo"
     />
 
-    <div class="flex flex-wrap justify-center my-5">
+    <!-- <div class="flex flex-wrap justify-center my-5">
         {data.map((card) => <Card data={card} />)}
+    </div> -->
+
+    <div id="default-carousel" class="relative w-[80dvw}" data-carousel="slide">
+        <div class="relative h-56 overflow-hidden rounded-base md:h-96">
+            {data.map((card) => <Card data={card} />)}
+        </div>
     </div>
+
 </MainLayout>
