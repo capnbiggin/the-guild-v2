@@ -1,22 +1,27 @@
 [
   {
     "title": "Friday Night Magic",
-    "image": "images/features/fnm.png"
+    "image": "images/features/fnm.png",
+    "link": "/events"
   },
   {
     "title": "Neuroscape",
-    "image": "images/features/Nova-He-Arc-Banner.png"
+    "image": "images/features/Nova-He-Arc-Banner.png",
+    "link": "/events"
   },
   {
     "title": "Flesh and blood Armory",
-    "image": "images/features/armory.webp"
+    "image": "images/features/armory.webp",
+    "link": "/events"
   },
   {
     "title": "40K",
-    "image": "images/features/40K.webp"
+    "image": "images/features/40K.webp",
+    "link": "/events"
   },
   {
     "title": "Pokemon",
-    "image": "images/features/Pokemon.webp"
+    "image": "images/features/Pokemon.webp",
+    "link": "/events"
   }
 ]
