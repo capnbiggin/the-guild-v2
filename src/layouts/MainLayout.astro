@@ -1,4 +1,8 @@
 ---
+// Styles
+import "@/styles/starwind.css";
+import "@/styles/bg-img.css";
+
 // Component Imports
 import MainHead from "../components/MainHead.astro";
 import Footer from "../components/Footer.astro";
@@ -6,17 +10,14 @@ import NavBar from "../components/NavBar.astro";
 
 // Props
 const { title } = Astro.props;
-
-// Styles
-import "../styles/global.css";
 ---
 
 <html lang="en">
     <MainHead title={title} />
     <body
-        class="bg-white border-gray-200 dark:bg-gray-800 dark:border-gray-600 dark:text-slate-100"
+        class="bg-white border-gray-200 dark:bg-gray-800 dark:border-gray-600 text-slate-100"
     >
-        <div class="min-h-dvh grid grid-rows-[auto_1fr_auto]">
+        <div class="min-h-dvh flex flex-col gap-7">
             <NavBar />
             <slot>Main Layout</slot>
             <Footer />

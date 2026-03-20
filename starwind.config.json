@@ -1,0 +1,28 @@
+{
+  "$schema": "https://starwind.dev/config-schema.json",
+  "tailwind": {
+    "css": "src/styles/starwind.css",
+    "baseColor": "slate",
+    "cssVariables": true
+  },
+  "componentDir": "src/components",
+  "utilsDir": "src/lib/utils",
+  "components": [
+    {
+      "name": "card",
+      "version": "2.0.1"
+    },
+    {
+      "name": "button",
+      "version": "2.3.2"
+    },
+    {
+      "name": "carousel",
+      "version": "1.0.3"
+    },
+    {
+      "name": "image",
+      "version": "1.0.1"
+    }
+  ]
+}

@@ -2,26 +2,31 @@
   {
     "title": "Friday Night Magic",
     "image": "images/features/fnm.png",
-    "link": "/events"
+    "link": "/events",
+    "content": "Fridays at 7PM"
   },
   {
     "title": "Neuroscape",
     "image": "images/features/Nova-He-Arc-Banner.png",
-    "link": "/events"
+    "link": "/events",
+    "content": "Come Learn to play"
   },
   {
     "title": "Flesh and blood Armory",
     "image": "images/features/armory.webp",
-    "link": "/events"
+    "link": "/events",
+    "content": "Sundays at 5PM"
   },
   {
-    "title": "40K",
+    "title": "Warhammer 40K",
     "image": "images/features/40K.webp",
-    "link": "/events"
+    "link": "/events",
+    "content": "Come Learn to play"
   },
   {
-    "title": "Pokemon",
+    "title": "Pokémon",
     "image": "images/features/Pokemon.webp",
-    "link": "/events"
+    "link": "/events",
+    "content": "Sunday & Tuesday"
   }
 ]
