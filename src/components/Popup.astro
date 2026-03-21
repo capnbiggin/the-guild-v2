@@ -1,0 +1,78 @@
+---
+
+---
+
+<div id="myPageLoadPopup" class="popup-overlay">
+    <div class="popup-content">
+        <h2>Welcome to Our Site!</h2>
+        <p>Get 10% off your first order when you sign up for our newsletter.</p>
+        <!-- Add a form or a button here -->
+        <button class="close-popup-btn">×</button> <!-- A close button -->
+    </div>
+</div>
+
+<style>
+    .popup-overlay {
+    display: none; /* Hidden by default */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.popup-content {
+    background: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    position: relative; /* For positioning the close button */
+    text-align: center;
+    max-width: 500px;
+    width: 90%;
+}
+ 
+.close-popup-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    border: none;
+    background: transparent;
+    font-size: 24px;
+    cursor: pointer;
+}
+</style>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+    const popup = document.getElementById('myPageLoadPopup');
+    const closeBtn = popup.querySelector('.close-popup-btn');
+    const popupDelay = 3000; // Delay in milliseconds (3000ms = 3 seconds)
+ 
+    // Function to show the popup
+    const showPopup = () => {
+        popup.style.display = 'flex';
+    };
+ 
+    // Function to hide the popup
+    const hidePopup = () => {
+        popup.style.display = 'none';
+    };
+ 
+    // Set a timer to show the popup after the delay
+    setTimeout(showPopup, popupDelay);
+ 
+    // Event listener to close the popup
+    closeBtn.addEventListener('click', hidePopup);
+ 
+    // Optional: Close when clicking the overlay
+    popup.addEventListener('click', function(event) {
+        if (event.target === this) {
+            hidePopup();
+        }
+    });
+});
+</script>

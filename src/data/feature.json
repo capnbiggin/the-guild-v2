@@ -9,7 +9,7 @@
     "title": "Neuroscape",
     "image": "images/features/Nova-He-Arc-Banner.png",
     "link": "/events",
-    "content": "Come Learn to play"
+    "content": "Mondays"
   },
   {
     "title": "Flesh and blood Armory",
@@ -21,12 +21,12 @@
     "title": "Warhammer 40K",
     "image": "images/features/40K.webp",
     "link": "/events",
-    "content": "Come Learn to play"
+    "content": "Wednesdays"
   },
   {
     "title": "Pokémon",
     "image": "images/features/Pokemon.webp",
     "link": "/events",
-    "content": "Sunday & Tuesday"
+    "content": "Sundays & Tuesdays"
   }
 ]
