@@ -27,10 +27,10 @@ import data from "../data/feature.json";
                     alt={feature.title} 
                     class="aspect-video "
                     >
-                <CardHeader class="font-extrabold text-lg">
+                <CardHeader class="font-extrabold text-lg bg-slate-800 border-slate-600 text-slate-200">
                     <a href={feature.link}>{feature.title}</a>
                 </CardHeader>
-                <CardContent>
+                <CardContent class="bg-slate-800 border-slate-600 text-slate-200">
                     {feature.content}
                 </CardContent>
             </Card>
@@ -38,8 +38,8 @@ import data from "../data/feature.json";
       )
     }
   </CarouselContent>
-  <CarouselPrevious />
-  <CarouselNext />
+  <CarouselPrevious class="bg-slate-800 border-slate-600 text-slate-200" />
+  <CarouselNext class="bg-slate-800 border-slate-600 text-slate-200" />
 </Carousel>
 
 <script>

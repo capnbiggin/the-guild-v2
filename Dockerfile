@@ -14,7 +14,7 @@ COPY tsconfig.json ./
 COPY wrangler.jsonc ./
 
 RUN pnpm install
-RUN pnpm install @astrojs/cloudflare
+RUN pnpm astro add cloudflare
 
 EXPOSE 4321
 
