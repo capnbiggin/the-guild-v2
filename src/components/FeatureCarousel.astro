@@ -25,16 +25,13 @@ import data from "../data/feature.json";
                 <img 
                     src={feature.image} 
                     alt={feature.title}
-                    class="aspect-video "
-                    >
-                <CardHeader class="font-extrabold text-lg bg-bak text-fg">
-                    <a 
-                      href={feature.link}
-                      class="bg-bak">
+                    class="aspect-video">
+                <CardHeader class="font-extrabold text-lg ">
+                    <a href={feature.link}>
                         {feature.title}
-                        </a>
+                    </a>
                 </CardHeader>
-                <CardContent class="bg-bak text-fg">
+                <CardContent>
                     {feature.content}
                 </CardContent>
             </Card>

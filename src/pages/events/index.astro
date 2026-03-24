@@ -5,6 +5,9 @@ import '../../styles/events.css';
 // Componit Imports
 import MainLayout from "../../layouts/MainLayout.astro";
 
+// Calendar Import
+import calendar from "/public/images/March_26_Calendar.png";
+import { Image } from '@/components/starwind/image';
 
 // const allPosts = await Astro.glob("./post/*.md");
 //const weeklyEvents = await Astro.glob("./weekly/*.md");
@@ -13,8 +16,8 @@ import MainLayout from "../../layouts/MainLayout.astro";
 
 <MainLayout title="Guild Events">
 	 <section class="flex justify-center items-center">
-    <div class="w-[75vw]">
-      <img src="/images/March_26_Calendar.png" alt="Events">
+    <div class="">
+      <Image src={calendar} alt="Events Calendar" class="w-[75vw] max-w-5xl">
     </div>
     <!--
     	<h1 class="flex justify-center text-6xl my-10 font-bold">Guild Events</h1>
