@@ -7,6 +7,7 @@
   --color-bak-hover: var(--color-slate-900);
 
   --color-fg: var(--color-slate-100);
+  --color-fg-hl: var(--color-slate-400);
   --color-fg-hover: var(--color-slate-200);
 
   --color-g-yellow: var(--color-yellow-300);
