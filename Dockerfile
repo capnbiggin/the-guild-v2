@@ -8,13 +8,11 @@ WORKDIR /app
 
 COPY package.json ./
 COPY pnpm-lock.yaml ./
-COPY astro.config.mjs ./
-COPY package.json ./
-COPY tsconfig.json ./
-COPY wrangler.jsonc ./
 
 RUN pnpm install
-RUN pnpm astro add cloudflare
+
+COPY . .
+
 
 EXPOSE 4321
 
