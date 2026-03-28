@@ -11,12 +11,12 @@
     "deploy": "pnpm run build && wrangler deploy"
   },
   "dependencies": {
-    "@astrojs/cloudflare": "^13.1.1",
-    "@astrojs/node": "^10.0.3",
+    "@astrojs/cloudflare": "^13.1.4",
+    "@astrojs/node": "^10.0.4",
     "@tabler/icons": "^3.40.0",
     "@tailwindcss/forms": "^0.5.11",
     "@tailwindcss/vite": "^4",
-    "astro": "^6.0.4",
+    "astro": "^6.1.1",
     "embla-carousel": "^8.6.0",
     "embla-carousel-autoplay": "^8.6.0",
     "tailwind-merge": "^3.5.0",
