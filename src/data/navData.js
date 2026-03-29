@@ -47,6 +47,10 @@ const turnyDrop = [
     name: "TopDeck",
     path: "https://topdeck.gg/hubs/K2s47dM7wtadge2uzKvM286HQyo1",
   },
+  {
+    name: "Carde.io",
+    path: "https://play.carde.io/stores/0e6fe7f1-f0b8-415d-b68e-c2cb898c4746",
+  },
 ];
 
 export { navData, navDrop, turnyDrop };
