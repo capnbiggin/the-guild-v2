@@ -1,50 +1,7 @@
 [
   {
-    "title": "Friday Night Magic",
-    "image": "images/features/fnm.png",
-    "link": "/events",
-    "content": "Fridays at 7PM"
-  },
-  {
-    "title": "Neuroscape",
-    "image": "images/features/Nova-He-Arc-Banner.png",
-    "link": "/events",
-    "content": "Mondays at 5PM"
-  },
-  {
-    "title": "Flesh and blood Armory",
-    "image": "images/features/26_01_GEMPACK-4_FB_POST3.jpg",
-    "link": "/events",
-    "content": "Sundays at 5PM"
-  },
-  {
-    "title": "Warhammer 40K",
-    "image": "images/features/40K.webp",
-    "link": "/events",
-    "content": "Wednesdays at 5PM"
-  },
-  {
-    "title": "Pokémon",
-    "image": "images/features/Pokemon.webp",
-    "link": "/events",
-    "content": "Sundays & Tuesdays at 5PM"
-  },
-  {
-    "title": "One Piece",
-    "image": "images/features/onepiece.webp",
-    "link": "/events",
-    "content": "Thursdays at 5PM"
-  },
-  {
-    "title": "Gundam",
-    "image": "images/features/gundam.webp",
-    "link": "/events",
-    "content": "Saturdays at 4PM"
-  },
-  {
-    "title": "Riftbound",
-    "image": "images/features/riftbound.jpeg",
-    "link": "/events",
-    "content": "Sundays at 2PM"
+    "title": "Guild Logo",
+    "image": "images/svg-icons/GuildLogoVector.svg",
+    "link": "/"
   }
 ]
