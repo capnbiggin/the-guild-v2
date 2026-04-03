@@ -1,49 +1,49 @@
 [
   {
     "title": "Friday Night Magic",
-    "image": "images/monthlyEvents/fnm.png",
+    "image": "images/fnm.png",
     "link": "/events",
     "content": "Fridays at 7PM"
   },
   {
     "title": "Neuroscape",
-    "image": "images/monthlyEvents/Nova-He-Arc-Banner.png",
+    "image": "images/neuroscape.png",
     "link": "/events",
     "content": "Mondays at 5PM"
   },
   {
     "title": "Flesh and Blood Armory",
-    "image": "images/monthlyEvents/26_01_GEMPACK-4_FB_POST3.jpg",
+    "image": "images/armory.jpg",
     "link": "/events",
     "content": "Sundays at 5PM"
   },
   {
     "title": "Warhammer 40K",
-    "image": "images/monthlyEvents/40K.webp",
+    "image": "images/40K.webp",
     "link": "/events",
     "content": "Wednesdays at 5PM"
   },
   {
     "title": "Pokémon",
-    "image": "images/monthlyEvents/Pokemon.webp",
+    "image": "images/Pokemon.webp",
     "link": "/events",
     "content": "Sundays & Tuesdays at 5PM"
   },
   {
     "title": "One Piece",
-    "image": "images/monthlyEvents/onepiece.webp",
+    "image": "images/onepiece.webp",
     "link": "/events",
     "content": "Thursdays at 5PM"
   },
   {
     "title": "Gundam",
-    "image": "images/monthlyEvents/gundam.webp",
+    "image": "images/gundam.webp",
     "link": "/events",
     "content": "Saturdays at 4PM"
   },
   {
     "title": "Riftbound",
-    "image": "images/monthlyEvents/riftbound.jpeg",
+    "image": "images/riftbound.jpeg",
     "link": "/events",
     "content": "Sundays at 2PM"
   }
