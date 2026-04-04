@@ -73,7 +73,8 @@ export function initCarousel(
   };
 
   // Handle plugins - EmblaCarousel expects undefined when no plugins, not empty array
-  const plugins = options.plugins && options.plugins.length > 0 ? options.plugins : undefined;
+  const plugins =
+    options.plugins && options.plugins.length > 0 ? options.plugins : undefined;
 
   // console.log("ID:", carouselElement.id);
   // console.log("Plugins:", plugins);
@@ -83,7 +84,9 @@ export function initCarousel(
   const prevButton = carouselElement.querySelector(
     ".starwind-carousel-previous",
   ) as HTMLButtonElement;
-  const nextButton = carouselElement.querySelector(".starwind-carousel-next") as HTMLButtonElement;
+  const nextButton = carouselElement.querySelector(
+    ".starwind-carousel-next",
+  ) as HTMLButtonElement;
 
   // Initialize Embla
   let emblaApi: EmblaCarouselType;
